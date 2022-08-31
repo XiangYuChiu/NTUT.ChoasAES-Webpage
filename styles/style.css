@@ -1,0 +1,75 @@
+
+html {
+	 font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+	 font-family: placeholder: this should be the rest of the output you got from Google fonts
+}
+
+ h1 {
+	 color: #344648;
+	 font-size: 25px;
+	 text-align: right;
+	 font-family: preconnect:
+ }
+ h2 {
+	 color: #344648;
+	 font-size: 20px;
+	 text-align: left;
+	 line-height: 1;
+ }
+ h3 {
+	 color: #344648;
+	 font-size: 10px;
+	 text-align: left;
+	 line-height: 0.1;
+ }
+ h4 {
+	 color: white;
+	 font-size: 20px;
+	 text-align: center;
+	 line-height: 3;
+ }
+ h5 {
+	 color: white;
+	 font-size: 10px;
+	 text-align: center;
+	 line-height: 0;
+ }
+ p, li {
+	 color: #344648;
+	 font-size: 16px;
+	 line-height: 2;
+	 letter-spacing: 1px;
+ }
+
+html {
+	 background-color: #FBE0C3;
+}
+
+/* 文字水平置中 */
+.text-h-center {
+  text-align: center;
+}
+
+/* 文字垂直置中 */
+.text-v-center {
+  vertical-align: top;
+}
+.text-v-center:before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+}
+.text-v-center p {
+  display: inline-block;
+}
+/*
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+*/
